@@ -1,1 +1,1 @@
-alert('this song is ill nasty!');
+const content = document.querySelector('#content');
