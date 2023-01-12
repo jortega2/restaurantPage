@@ -8,6 +8,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background-color: black;
+    color: greenyellow;
+
     height: 100vh;
+    min-height: 500px;
+    width: 100vw;
+    overflow: auto;
+
+    background-image: url('pleaseStandBy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
