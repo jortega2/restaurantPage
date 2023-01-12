@@ -1,5 +1,6 @@
 import './initialPage.css';
 import falloutLogo from './imgs/fallout.png';
+import locationImg from './imgs/diamondcity.jpg';
 
 function createHeader() {
   const header = document.createElement('div');
@@ -30,6 +31,16 @@ function createHeader() {
   return header;
 }
 
+function createMap() {
+  const map = document.createElement('img');
+  map.src = locationImg;
+  map.classList.add('map');
+  map.classList.add('glow');
+
+  return map;
+}
+
 export default function initialPage(element) {
   element.append(createHeader());
+  element.append(createMap());
 }

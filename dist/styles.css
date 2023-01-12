@@ -14,19 +14,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
 }
 
 #content {
     display: flex;
     flex-direction: column;
+    gap: 100px;
     align-items: center;
-    padding: 50px 10px;
+    padding: 100px 50px;
 
     color: greenyellow;
-
-    height: 100vh;
-    width: 920px;
+    min-height: 100vh;
+    max-width: 1000px;
     overflow: auto;
 }
