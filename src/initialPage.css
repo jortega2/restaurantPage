@@ -63,3 +63,12 @@
     padding: 25px;
     font-size: large;
 }
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    font-size: x-large;
+    padding: 20px;
+}

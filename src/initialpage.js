@@ -95,9 +95,53 @@ function createInformation() {
   return information;
 }
 
+function createCredits() {
+  const credits = document.createElement('div');
+  credits.classList.add('glow');
+  credits.classList.add('credits');
+
+  const title = document.createElement('h2');
+  title.innerText = 'Credits';
+
+  const restaurantImage = document.createElement('a');
+  restaurantImage.href = 'https://fallout.fandom.com/wiki/Power_Noodles?file=FO4_P_Noodles_TV.png';
+  restaurantImage.innerText = 'Kdarrow for the main Power Noodles screenshot.';
+
+  const logo = document.createElement('a');
+  logo.href = 'https://www.pngfind.com/mpng/ohxJRi_allout-fallout-2-fallout-shelter-fallout-4-fallout/';
+  logo.innerText = 'pngfind for the Fallout logo';
+
+  const location = document.createElement('a');
+  location.href = 'https://fallout-archive.fandom.com/wiki/Diamond_City_market';
+  location.innerText = 'Fallout 4 fandom page for the location image used on the home page';
+
+  const wikiInfo = document.createElement('a');
+  wikiInfo.href = 'https://fallout.fandom.com/wiki/Power_Noodles';
+  wikiInfo.innerText = 'Fallout 4 fandom page for their notes that were used in the information section';
+
+  const consumables = document.createElement('a');
+  consumables.href = 'https://fallout.fandom.com/wiki/Fallout_4_consumables';
+  consumables.innerText = 'Fallout 4 fandom page for the food information used in the menu page';
+
+  const bethesda = document.createElement('a');
+  bethesda.href = 'https://fallout.bethesda.net/en/games/fallout-4';
+  bethesda.innerText = 'Bethesda for creating Fallout 4';
+
+  credits.appendChild(title);
+  credits.appendChild(bethesda);
+  credits.appendChild(restaurantImage);
+  credits.appendChild(location);
+  credits.appendChild(wikiInfo);
+  credits.appendChild(consumables);
+  credits.appendChild(logo);
+
+  return credits;
+}
+
 export default function initialPage(element) {
   element.append(createHeader());
   element.append(createMap());
   element.append(createHours());
   element.append(createInformation());
+  element.append(createCredits());
 }
