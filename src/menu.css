@@ -1,0 +1,19 @@
+.menuContainer {
+  width: 900px;
+}
+
+.menu {
+  width: 100%;
+  height: 750px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.menu  *{
+  outline-style: solid;
+  outline-color: green;
+}
+
+.menu caption {
+  font-size: xx-large;
+}
