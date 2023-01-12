@@ -4,22 +4,29 @@
     box-sizing: border-box;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: black;
-    color: greenyellow;
-
-    height: 100vh;
-    min-height: 500px;
-    width: 100vw;
-    overflow: auto;
+body {
+    display: grid;
+    place-items: center;
 
     background-image: url('pleaseStandBy.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+
+    color: greenyellow;
+
+    height: 100vh;
+    width: 920px;
+    overflow: auto;
 }
