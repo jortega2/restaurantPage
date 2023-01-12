@@ -1,0 +1,31 @@
+.glow {
+  background-color: black;
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  
+  box-shadow: 0 0 40px black;
+}
+
+.navButton {
+  background-color: green;
+  color: black;
+
+  outline-style: solid;
+  outline-width: 2px;
+  border-radius: 5px;
+  border-width: 0px;
+
+  font-size: x-large;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 900px;
+}

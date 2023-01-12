@@ -1,5 +1,5 @@
 import './initialPage.css';
-import './glow.css';
+import './global.css';
 import falloutLogo from './imgs/fallout.png';
 import locationImg from './imgs/diamondcity.jpg';
 import about from './about.txt';
@@ -20,12 +20,12 @@ function createHeader() {
   fallout.src = falloutLogo;
   fallout.classList.add('titleImg');
 
-  const menu = document.createElement('button');
-  menu.classList.add('menu');
-  menu.textContent = 'View the Menu';
+  const button = document.createElement('button');
+  button.classList.add('navButton');
+  button.textContent = 'View the Menu';
 
   nav.appendChild(fallout);
-  nav.appendChild(menu);
+  nav.appendChild(button);
 
   header.append(nav);
   header.append(titleBG);

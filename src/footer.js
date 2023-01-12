@@ -1,5 +1,5 @@
 import gitHubIcon from './imgs/github.png';
-import './glow.css';
+import './global.css';
 
 export default function createFooter(element) {
   const footer = document.createElement('footer');
