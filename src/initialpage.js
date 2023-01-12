@@ -1,4 +1,5 @@
 import './initialPage.css';
+import './glow.css';
 import falloutLogo from './imgs/fallout.png';
 import locationImg from './imgs/diamondcity.jpg';
 import about from './about.txt';
