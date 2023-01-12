@@ -37,15 +37,16 @@
 }
 
 .menu {
-    background-color: black;
-    color: green;
+    background-color: green;
+    color: black;
 
     outline-style: solid;
     outline-width: 2px;
     border-radius: 5px;
     border-width: 0px;
 
-    font-size: large;
+    font-size: x-large;
+    font-weight: bold;
     padding: 5px;
 
 }
@@ -59,7 +60,7 @@
     width: 900px;
 }
 
-.information{
+.storeHours{
     width: 900px;
     display: flex;
     align-items: center;
@@ -67,17 +68,22 @@
     font-size: x-large;
 }
 
-.information table {
+.storeHours table {
     flex: 1;
 }
 
-.information table tr {
+.storeHours table tr {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.information table th {
+.storeHours table th {
     padding: 5px;
     text-align: left;
+}
+
+.information {
+    padding: 25px;
+    font-size: large;
 }

@@ -1,6 +1,7 @@
 import './initialPage.css';
 import falloutLogo from './imgs/fallout.png';
 import locationImg from './imgs/diamondcity.jpg';
+import about from './about.txt';
 
 function createHeader() {
   const header = document.createElement('div');
@@ -20,7 +21,7 @@ function createHeader() {
 
   const menu = document.createElement('button');
   menu.classList.add('menu');
-  menu.textContent = 'menu';
+  menu.textContent = 'View the Menu';
 
   nav.appendChild(fallout);
   nav.appendChild(menu);
@@ -64,14 +65,31 @@ function createHoursTable() {
   return element;
 }
 
+function createHours() {
+  const storeHours = document.createElement('div');
+  storeHours.classList.add('storeHours');
+  storeHours.classList.add('glow');
+
+  const hoursTable = createHoursTable();
+
+  storeHours.append(hoursTable);
+
+  return storeHours;
+}
+
 function createInformation() {
   const information = document.createElement('div');
   information.classList.add('information');
   information.classList.add('glow');
 
-  const hoursTable = createHoursTable();
+  const title = document.createElement('h2');
+  title.innerText = 'From the Wiki';
 
-  information.append(hoursTable);
+  const info = document.createElement('p');
+  info.innerText = about;
+
+  information.append(title);
+  information.append(info);
 
   return information;
 }
@@ -79,5 +97,6 @@ function createInformation() {
 export default function initialPage(element) {
   element.append(createHeader());
   element.append(createMap());
+  element.append(createHours());
   element.append(createInformation());
 }
