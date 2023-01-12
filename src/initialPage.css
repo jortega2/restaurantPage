@@ -18,15 +18,6 @@
     margin-top: 250px;
 }
 
-.glow {
-    background-color: black;
-    border-style: solid;
-    border-color: green;
-    border-width: 5px;
-    
-    box-shadow: 0 0 40px black;
-}
-
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -86,4 +77,12 @@
 .information {
     padding: 25px;
     font-size: large;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
