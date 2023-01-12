@@ -1,0 +1,55 @@
+.header {
+    background-image: url('imgs/noodlestv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 900px;
+    height: 600px;
+
+    display:inline-block;
+}
+
+.opaque{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+
+.glow {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    
+    box-shadow: 0 0 10px black;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.menu {
+    background-color: black;
+    color: green;
+
+    outline-style: solid;
+    outline-width: 2px;
+    border-radius: 5px;
+    border-width: 0px;
+
+    font-size: large;
+    padding: 5px;
+
+}
+
+.titleImg{
+    width: 150px;
+    height: 50px;
+}
