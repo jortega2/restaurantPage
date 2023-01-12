@@ -19,6 +19,7 @@
 }
 
 .glow {
+    background-color: black;
     border-style: solid;
     border-color: green;
     border-width: 5px;
@@ -56,4 +57,27 @@
 
 .map {
     width: 900px;
+}
+
+.information{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: x-large;
+}
+
+.information table {
+    flex: 1;
+}
+
+.information table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information table th {
+    padding: 5px;
+    text-align: left;
 }
