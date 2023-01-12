@@ -21,6 +21,10 @@ module.exports = {
         test: /\.txt$/i,
         use: 'raw-loader',
       },
+      {
+        test: /\.(csv|tsv)$/i,
+        use: ['csv-loader'],
+      },
     ],
   },
   devtool: 'inline-source-map',
