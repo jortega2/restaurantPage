@@ -11,14 +11,20 @@
   background-color: green;
   color: black;
 
-  outline-style: solid;
-  outline-width: 2px;
   border-radius: 5px;
   border-width: 0px;
 
   font-size: x-large;
   font-weight: bold;
   padding: 5px;
+}
+
+.navButton:hover {
+  background-color: black;
+  color: green;
+
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 .footer {
