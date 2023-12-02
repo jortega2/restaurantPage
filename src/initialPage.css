@@ -72,3 +72,16 @@
     font-size: x-large;
     padding: 20px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    #content > * {
+        width: 95vw;
+        height: auto;
+    }
+
+    .titleImg{
+        width: 100px;
+        height: auto;
+    }
+}
