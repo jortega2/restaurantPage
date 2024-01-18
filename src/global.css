@@ -36,6 +36,10 @@
   width: 900px;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1000px) {
   .navButton{
     font-size: larger;
