@@ -15,3 +15,6 @@ NPM and Webpack are also used to organize the javascript code and external sourc
 You can visit and interact with the webpage on GitHub pages:
 
 https://jortega2.github.io/restaurantPage/
+
+## Preview
+<img src="/Gif/preview.gif" width="400" height="400"/>
